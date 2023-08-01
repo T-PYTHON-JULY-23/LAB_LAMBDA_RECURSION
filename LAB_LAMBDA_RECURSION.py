@@ -1,7 +1,6 @@
 
 def recurison(chr:str) -> str:
     vowels = "aeiou"
-    # chr_low= chr.lower
     if len(chr) == 0 :
         return 0
     elif chr[0].lower() in vowels:
