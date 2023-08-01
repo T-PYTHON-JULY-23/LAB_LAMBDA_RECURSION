@@ -1,20 +1,20 @@
 #1
-def phrase(word): 
-    vowels = ("a","e","i","o","u")
-    word = word.lower()
-    if len(word) ==0: 
+def how_many_vowels(phrase): 
+    vowels_litters = ("a","e","i","o","u")
+    word = phrase.lower()
+    if len(phrase) ==0: 
         return 0 
-    elif word[0] in vowels:
-        return 1+ phrase(word[1:])
+    elif phrase[0] in vowels_litters:
+        return 1+ how_many_vowels(phrase[1:])
     else: 
-        return phrase(word[1:])
+        return how_many_vowels(phrase[1:])
 
-print (phrase("i love python"))
+print (how_many_vowels("i love python"))
 
 
 #2
 
 numbers = [40,35, 10, 15, 20]
  
-multiblation = list(map(lambda x:x*x ,numbers))
-print(multiblation)
+mutliplition = list(map(lambda x:x*x ,numbers))
+print(mutliplition)
