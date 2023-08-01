@@ -38,10 +38,10 @@ def Fizz_Buzz_WhileLoop() :
 print("-"*20)
 print("the answer using foor loop")
 print("-"*20)
-print(Fizz_Buzz_ForLoop())
+Fizz_Buzz_ForLoop()
 
 
 print("-"*20)
 print("the answer using while loop")
 print("-"*20)
-print(Fizz_Buzz_WhileLoop())
+Fizz_Buzz_WhileLoop()
