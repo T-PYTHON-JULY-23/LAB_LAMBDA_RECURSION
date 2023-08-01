@@ -23,7 +23,7 @@ FizzBuzz is a common coding problem that asks you to print the numbers from 1 to
 1. For multiples of three, print "Fizz" instead of the number.
 2. For multiples of five, print "Buzz" instead of the number.
 3. For numbers which are multiples of both three and five, print "FizzBuzz".
-
+qhil
 Try to write a Python program that accomplishes this task using a "for" loop. After you've completed that, try to write the same program but using a "while" loop instead.
 
 Remember to test your code to ensure it's working as expected!
